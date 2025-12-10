@@ -28,7 +28,7 @@ const Login = () => {
       const response = await api.post("/api/login", {
         email,
         password,
-        ip_address: "127.0.0.1",
+        ip_address: "13.210.33.250",
       });
 
       const { access_token, companies } = response.data;
